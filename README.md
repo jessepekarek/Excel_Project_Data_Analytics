@@ -32,7 +32,7 @@ The dataset used for this project contains real-world data science job informati
   
 **📊Data Scinece Job Salaries - Bar Chart**
   
-![1_Salary_Dashboard_Chart1.png](/photos/1_Salary_Dashboard_Chart1.png)  
+<img src="/photos/1_Salary_Dashboard_Chart1.png" width="850" height="550" alt="Salary Dashboard Chart1">
   
     
 - **🛠️Excel Features**: Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
@@ -88,37 +88,29 @@ IF(
   
 🍽️ Background Table
   
-  
-<u>1_Salary_Dashboard_Type.png</u> 
-  
+  ![1_Salary_Dashboard_Screenshot1.png](/photos/1_Salary_Dashboard_Screenshot1.png)
   
 📉 Dashboard Implementation
 
-  <u>Job Title Data Analyst Chart.png</u> 
+ <img src="/photos/1_Salary_Dashboard_Job_Title.png" width="400" height="500" alt="Salary Dashboard Title">
   
 **⏰ Count of Job Schedule Type**  
 
-=FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))  
+```
+=FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
+```
 
 - 🔍 **Unique List Generation**: This Excel formula below employs the FILTER() function to exclude entries containing "and" or commas, and omit zero values.  
 - 🔢 **Formula Purpose**: This formula populates the table below, which gives us a list of unique job schedule types.  
   
 🍽️ **Background Table**
-<br>
-<br>
-<br>
-<u>1_Salary_Dashboard_Type.png</u>
-<br>
-<br>
-<br>
+  
+![1_Salary_Dashboard_Type.png](/photos/1_Salary_Dashboard_Screenshot2.png)  
+  
 📉 **Dashboard Implementation:**
-<br>
-<br>
-<br>
-<u>Salary Dashboard Type chart</u>
-<br>
-<br>
-<br>
+  
+<img src="/photos/1_Salary_Dashboard_Type.png" width="350" height="500" alt="Salary Dashboard Type">  
+  
 ### ❎ **Data Validation**  
 
 🔍 Filtered List
@@ -127,12 +119,8 @@ IF(
   - 🎯 User input is restricted to predefined, validated schedule types  
   - 🚫 Incorrect or inconsistent entries are prevented  
   - 👥 Overall usability of the dashboard is enhanced  
-<br>
-<br>
-<br>
-<u>Job Title Data Engineer Data Validation dropdown</u>
-<br>
-<br>
-<br>
+  
+  <img src="/photos/1_Salary_Dashboard_Data_Validation.gif" width="425" height="400" alt="Salary Dashboard Data Validation">  
+    
 ## Conclusion  
 I created this dashboard to showcase insights into salary trends across various data-related job titles. Utilizing data from my Excel course, this dashboard allows users to make informed decisions about their career paths. Exploring the functionalities to understand how location and job type influence salaries.
