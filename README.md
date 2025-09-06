@@ -70,12 +70,7 @@ IF(
 - 🔍 **Multi-Criteria Filtering**: Checks job title, country, schedule type, and excludes blank salaries.  
 - 📊 **Array Formula**: Utilizes `MEDIAN()` function with nested `IF()` statement to analyze an array.  
 - 🎯 **Tailored Insights**: Provides specific salary information for job titles, regions, and schedule types.  
-- 🔢 **Formula Purpose**: This formula populates the table below, returning the median salary based on job title, country, and type specified.  
-  
-⏰ **Count of Job Schedule Type**  
-
-- 🔍 **Unique List Generation**: This Excel formula below employs the `FILTER()` function to exclude entries containing "and" or commas, and omit zero values.  
-- 🔢 Formula Purpose: This formula populates the table below, which gives us a list of unique job schedule types.  
+- 🔢 **Formula Purpose**: This formula populates the table below, returning the median salary based on job title, country, and type specified.   
   
 🍽️ Background Table
   
@@ -91,7 +86,7 @@ IF(
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
 ```
 
-- 🔍 **Unique List Generation**: This Excel formula below employs the FILTER() function to exclude entries containing "and" or commas, and omit zero values.  
+- 🔍 **Unique List Generation**: This Excel formula below employs the `FILTER()` function to exclude entries containing "and" or commas, and omit zero values.  
 - 🔢 **Formula Purpose**: This formula populates the table below, which gives us a list of unique job schedule types.  
   
 🍽️ **Background Table**
@@ -106,7 +101,7 @@ IF(
 
 🔍 Filtered List
   
-- 🔒 **Enhanced Data Validation**: Implementing the filtered list as a data validation rule under the ```Job Title```, ```Country```, and ```Type option``` in the Data tab ensures:  
+- 🔒 **Enhanced Data Validation**: Implementing the filtered list as a data validation rule under the `Job Title`, `Country`, and `Type option` in the Data tab ensures:  
   - 🎯 User input is restricted to predefined, validated schedule types  
   - 🚫 Incorrect or inconsistent entries are prevented  
   - 👥 Overall usability of the dashboard is enhanced  
