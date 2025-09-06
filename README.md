@@ -7,7 +7,7 @@ The data is from my Excel course, which provides a foundation in analyzing data 
   
 ### Dashboard File  
   
-My final dashboard is in [Dashboard_final_salary_datajobs.xlsx](1_Salary_Dashboard.xlsx).  
+My final dashboard is in [Dashboard_final_salary_datajobs.xlsx](Dashboard_final_salary_datajobs.xlsx).  
   
 ## Excel Skills Used  
   
