@@ -34,6 +34,8 @@ The dataset used for this project contains real-world data science job informati
   
 <img src="/photos/1_Salary_Dashboard_Chart1.png" width="850" height="550" alt="Salary Dashboard Chart1">
   
+![1_Salary_Dashboard_Chart1.png](/photos/1_Salary_Dashboard_chart1.png)
+    
 - **🛠️Excel Features**: Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
 - **🎨Design Choice**:  Horizontal bar chart for visual comparison of median salaries.
 - **📉 Data Organization**: Sorted job titles by descending salary for improved readability.
@@ -54,16 +56,26 @@ The dataset used for this project contains real-world data science job informati
   
 💰 **Median Salary by Job Titles**
   
-  # ***ENTER MEDIAN FORMULA image  
+```
+=MEDIAN(
+IF(
+    (jobs[job_title_short]=A2)*
+    (jobs[job_country]=country)*
+    (ISNUMBER(SEARCH(type,jobs[job_schedule_type])))*
+    (jobs[salary_year_avg]<>0),
+    jobs[salary_year_avg]
+)
+)
+```
   
 - 🔍 **Multi-Criteria Filtering**: Checks job title, country, schedule type, and excludes blank salaries.  
-- 📊 **Array Formula**: Utilizes MEDIAN() function with nested IF() statement to analyze an array.  
+- 📊 **Array Formula**: Utilizes `MEDIAN()` function with nested `IF()` statement to analyze an array.  
 - 🎯 **Tailored Insights**: Provides specific salary information for job titles, regions, and schedule types.  
 - 🔢 **Formula Purpose**: This formula populates the table below, returning the median salary based on job title, country, and type specified.  
   
 🍽️ **Background Table**
   
-  
+  ![1_Salary_Dashboard_Screenshot1.png](/photos/1_Salary_Dashboard_Screenshot1.png)
   
 📉 **Dashboard Implementation**  
   
@@ -72,7 +84,7 @@ The dataset used for this project contains real-world data science job informati
   
   
 
-- 🔍 **Unique List Generation**: This Excel formula below employs the <u>FILTER()</u> function to exclude entries containing "and" or commas, and omit zero values.  
+- 🔍 **Unique List Generation**: This Excel formula below employs the `FILTER()` function to exclude entries containing "and" or commas, and omit zero values.  
 - 🔢 Formula Purpose: This formula populates the table below, which gives us a list of unique job schedule types.  
   
 🍽️ Background Table
