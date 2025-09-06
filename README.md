@@ -72,16 +72,7 @@ IF(
 - 🎯 **Tailored Insights**: Provides specific salary information for job titles, regions, and schedule types.  
 - 🔢 **Formula Purpose**: This formula populates the table below, returning the median salary based on job title, country, and type specified.  
   
-🍽️ **Background Table**
-  
-  ![1_Salary_Dashboard_Screenshot1.png](/photos/1_Salary_Dashboard_Screenshot1.png)
-  
-📉 **Dashboard Implementation**  
-  
-  
 ⏰ **Count of Job Schedule Type**  
-  
-  
 
 - 🔍 **Unique List Generation**: This Excel formula below employs the `FILTER()` function to exclude entries containing "and" or commas, and omit zero values.  
 - 🔢 Formula Purpose: This formula populates the table below, which gives us a list of unique job schedule types.  
