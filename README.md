@@ -34,7 +34,9 @@ The dataset used for this project contains real-world data science job informati
   
 <img src="/photos/1_Salary_Dashboard_Chart1.png" width="850" height="550" alt="Salary Dashboard Chart1">
   
-![1_Salary_Dashboard_Chart1.png](/photos/1_Salary_Dashboard_chart1.png)
+![1_Salary_Dashboard_Chart1.png](/photos/1_Salary_Dashboard_Chart1.png)  
+  
+![1_Salary_Dashboard_Screenshot1.png](/photos/1_Salary_Dashboard_Screenshot1.png)
     
 - **🛠️Excel Features**: Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
 - **🎨Design Choice**:  Horizontal bar chart for visual comparison of median salaries.
