@@ -1,5 +1,7 @@
 # Excel Salary Dashboard
-
+  
+![1_Salary_Dashboard.png](/photos/1_Salary_Dashboard_Final_Dashboard.gif)  
+  
 ## Introduction  
 This data jobs salary dashboard was created to help job seekers investigate salaries for their desired jobs and ensure they are being adequately compensated.
 
@@ -9,7 +11,7 @@ The data is from my Excel course, which provides a foundation in analyzing data 
   
 My final dashboard is in [Dashboard_final_salary_datajobs.xlsx](Dashboard_final_salary_datajobs.xlsx).  
   
-## Excel Skills Used  
+### Excel Skills Used  
   
 The following Excel skills were utilized for analysis:  
 
@@ -17,7 +19,7 @@ The following Excel skills were utilized for analysis:
 - **🧮Formulas and Functions**
 - **❎ Data Validation**
   
-## Data Jobs Dataset  
+### Data Jobs Dataset  
   
 The dataset used for this project contains real-world data science job information from 2023. The dataset is available via my Excel course, which provides a foundation for analyzing data using Excel. It includes detailed information on:  
   
@@ -41,10 +43,9 @@ The dataset used for this project contains real-world data science job informati
 - **💡 Insights Gained**: This enables quick identification of salary trends, noting that Senior roles and Engineers are higher-paying than Analyst roles.
   
 **🗺️ Country Median Salaries - Map Chart**
-  
-  
-  
-  
+    
+![1_Salary_Dashboard_Chart2.png](/photos/1_Salary_Dashboard_Country_Map.gif)
+    
 - 🛠️ **Excel Features**: Utilized Excel's map chart feature to plot median salaries globally.  
 - 🎨 **Design Choice**: Color-coded map to visually differentiate salary levels across regions.  
 📊 **Data Representation**: Plotted median salary for each country with available data.  
